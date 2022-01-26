@@ -1,0 +1,53 @@
+VARIABLES: 
+
+Son espacios o lugares dentro de nuestro código donde nosotoros como programadores o escritores de ese código podemos guardar un valor para luego poder reutilizarlo en cualquier parte del mismo, por ejemplo si sos un chico de 12 años y te llamas Agustín, podriamos guardar tu edad en una variable o en uno de esos espacios que se llame edad, y ponerle el valor 12, al igual que con la variable nombre, podriamos crear ese espacio (de memoria de nuestro ordenador) y colocarle el valor con tu nombre, es decir 'Agustin' y lo pongo entre comillas porque todo lo que sea texto, es decir palabras, o cadenas de caracteres se deben escribir de esa forma para que nuestro entorno de desarrollo o lugar donde escribimos el código lo interprete como lo que se conoce como tipo de dato string. En el lenguaje que estamos viendo actualmente, es decir, JAVASCRIPT, las variables se declaran o escriben de la siguiente manera:
+Con la palabra reservada o clave llamada VAR, seguida de un espacio y el nombre de la variable y luego de declararla le podemos asignar o colocar un valor utilizando el signo =. Si utilizamos los ejemplos anteriores las variables quedarian declaradas:
+- VAR edad = 12; 
+- VAR nombre = 'Agustin';
+
+STRINGS: 
+
+Un String es un tipo de dato. Un tipo de dato es una caracteristica (atributo) que tienen estos datos para saber con que clases de ellos vamos a poder escribir nuestro codigo, un string es uno de ellos, una manera de representar, lo que se llaman cadenas de caracteres, palabras o texto, como antes, que por ejemplo usamos el nombre "Agustin" que es una cadena de caracteres que va entre el simbolo de comillas simples (') o dobles (")
+
+FUNCIONES (ARGUMENTOS Y 'RETURN'):
+
+Una función es una manera de simplifar o achicar el codigo que escribimos para que en muchas ocasiones nuestro desarrollo final sea rapido y fácil de entender, cuando creamos una función basicamente estariamos creando un objeto invocable dentro del lenguaje donde escribamos nuestro código, invocable quiere decir que lo podriamos llamar más adelante para visualizar sus resultados.
+Son también una forma de manipular o trabajar con las variables que explique anteriormente y la forma de escribirlas es la siguiente: 
+
+function miFuncion() {}
+
+en donde:
+- Arrancariamos siemre con la palabra clave function para saber que estamos ejecutando, abriendo o iniciando una función
+- Despues colocamos el nombre de la función, lo mismo que con las variables podriamos poner en lo posible un nombre que describa que significa esa función o lo que principalmente está por hacer en nuestro programa. 
+- Luego colocamos un paréntesis abierto y otro cerrado y luego un corchete abierto y otro cerrado donde vamos a escribir el código que guarde esa función
+
+Argumentos: Los argumentos por su parte son parámetrps que se le pasan a la función, es decir, son variables que nos permiten operar con ellas para devolver o retornar otro valor más adelante, entonces cuando llamamos a esa función, estariamos trabajando con esos argumentos con esas variables, estas van dentro de los paréntesis; por ejemplo, si creamos una función de suma de dos números, podriamos pasar los parámetros o argumentos num1 y num2 y establecerle valores a cada uno, a num1 le corresponderia por ejemplo el número 5 y a num2 el número 3 y ya solo restaria escribir el código de la función. 
+
+Return: Se utiliza para devolver el valor de la función, una vez que pasa esto, la ejecución de la función termina completamente. 
+
+DECLARACIONES ('IF');
+
+La declaración IF que es igual a SI en español, es un operador de control de flujo que sirve y se utiliza para evaluar condiciones, lo que quiere decir, que determina o verifica si algo es verdadero (True) o lo contrario, falso (False), con operaciones avanzadas. Por ejemplo si queremos saber si alguien puede manejar automóviles para lo cual debe ser mayor de edad, tendriamos lo siguiente:
+
+```javascript
+function puedeManejar(edad) {
+    if (edad > 18) {
+        return true;
+    }
+
+    return false;
+}
+
+puedeManejar(22); // true
+```
+Esto es verdadero (True) ya que el simbolo > indica "Mayor" por lo tanto al tener 22 años (22 > 18), se verificó que esta persona puede manejar y nuestra función se detendra, en cambio, si a la función le hubiesemos pasado el argumento con valor 12, devolveria o retornaria false (Falso) porque 12 obviamente es menor (<) a 18.
+
+VALORES BOOLEANOS (TRUE, FALSE): 
+
+Estos valores salen de la Logica de Boole, este señor se llamaba George Boole y era un profesor de matematícas en pocas palabras, entonces para recordarlo y en su honor se creo su Algebra que simplifica o reduce y trata de entender de una mejor manera las operaciones lógicas y son sostenidos por el 0 y el 1, lo cuál es llamado codigo binario, binario porque son solo 2 valores, principalmente significan activar o desactivar, asi como encender o apagar la luz de una pieza o habitación, True significa verdadero en español y False, falso. 
+
+
+
+
+
+
