@@ -1,0 +1,14 @@
+FOR:
+
+El bucle FOR, es una estructura de código repetitiva, es decir, que podemos repetir sentencias el número de veces que querramos que suceda mientras una condición se evalue como verdadera, su sintaxis es la siguiente:
+Inicialmente debemos escribir la palabra reservada for seguido de parentesis () y llaves {}, en los parentesis, nos encontramos con tres partes, la primera, consiste en inicializar una variable, que luego la podemos utilizar como variable contador y es sobre la que se repetira el bucle, por ej., var i = 0, luego establecemos una condicion, ej. i < 11 ("Variable i mayor que 11"), por ultimo podemos incrementar o decrementar el valor de nuestra variable, entre las llaves, escribiriamos nuestras sentencias de código que se ejecutaran mientras la condicion sea true. Si es false, por lo tanto se saldra del bucle y finalizara.
+
+OPERADORES LOGICOS, && - || - !:
+
+Los operadores lógicos son similares a los operadores matemáticos, nos sirven para evaluar expresiones y determinar si son true o false, es decir, verdaderas o falsas.
+
+&& ("AND") ("Y"), este es el primer operador, la Y lógica, el cuál evalua dos expresiones, si ambas expresiones son true el código se ejecutará y devolvera true, si una expresión es true y la otra es false, el código se omitirá y no se ejecutará por devolver fale.
+
+|| ("OR") ("O"), el segundo operador, el O lógico, determina si una expresión es true y devuelve true, si ambos operandos son falsos, devolvera false.
+
+! ("NOT") ("NO"), el terecer operador, la negación lógica, evalua condiciones y devuelve el valor booleano contrario al que se le pase, si es true, devuelve false, y visceversa.
