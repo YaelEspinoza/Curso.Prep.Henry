@@ -1,0 +1,3 @@
+ARRAYS:
+
+Un Array o en español Arreglo, es una lista de elementos, los cuales pueden ser cualquier tipo de dato, ya sea, "String", Number, Boolean, Null, Undefined, etc. a los cuales yo como desarrollador puedo acceder en un futuro gracias al orden que poseen. Estos se definen con el uso de Brackets o corchetes [], esto es un arreglo vacio, un arreglo con dos elementos es por ejemplo [11, 'Yael'].
