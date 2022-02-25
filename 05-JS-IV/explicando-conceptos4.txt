@@ -1,0 +1,20 @@
+OBEJETOS:
+
+Un objeto es una colección de propiedades, son similares a los arrays en algunas cosas y en otras no, los objetos contienen mucha información sobre una sola cosa y se instancian usando llaves {}.
+
+PROPIEDADES: 
+
+Una propiedad es la asociación que se produce entre un nombre o clave y un valor, que puede ser cualquier tipo de dato, al igual que los arreglos, esto se conoce como key:value (clave:valor).
+
+METODOS: 
+
+Un método, es una función guardada dentro de un objeto.
+
+BUCLE FOR IN: 
+
+Este es un segundo bucle FOR integrado en Javascript, tiene una sintáxis muy poco distinta a la que utilizabamos con arrays y es la siguiente, comienza igual con la palabra reservada for, luego, entre parentesis debemos declarar una variable seguida de la palabra reservada in y el nombre del objeto. Esto nos sirve para recorrer cada clave del objeto y finalizariamos cuando hayamos iterado todas las claves.
+
+NOTACIÓN DE PUNTOS VS NOTACIÓN DE CORCHETES:
+
+Estas,son formas de acceder a los valores de un objeto, la notación de puntos es la que posee una sintáxis por decirlo "Más fácil" que la notación de corchetes, debemos escribir el nombre del objeto, seguido de un punto y el nombre de la clave, por ej. si tenemos un objeto user, con una clave username, para acceder a su valor con notación de puntos, escribiriamos user.username; . 
+En cambio con la notación de corchetes es similar a llamar a un elemento en un array pero debemos usar una cadena o número, o una variable que apunte a una cadena o a un número, debemos llamar a cada clave envolviendola entre comillas. Siguiendo el ejemplo anterior, para acceder a username, debemos escribir lo siguiente, user['username']; o bien, si tenemos declarada una variable con el valor de una clave en el objeto ej. const passString = 'password', para acceder a este valor usariamos user[passString], lo que nos devolveria el valor que colocamos en password.
