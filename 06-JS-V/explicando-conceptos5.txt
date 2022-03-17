@@ -1,0 +1,11 @@
+PROTOTYPE:
+
+Llamda Proto (__proto__), es una propiedad extra que tienen todos los objetos de JS por la cuál heredan características unos de otros. 
+
+CONSTRUCTORS (De clases):
+
+El constructor es una función, método, que actua a modo de molde y que nos permite crear, construir e inicializar objetos a partir de una clase, debemos por convención (Acuerdo entre desarrolladores) iniciar la primer letra del nombre de la función en mayuscula, por ejemplo en vez de escribir;
+constructor ([argumentos]){...}, escribiriamos Constructor ([argumentos]){...}.
+
+
+
