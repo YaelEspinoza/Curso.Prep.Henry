@@ -1,0 +1,3 @@
+FUNCIONES CALLBACKS: 
+
+Asi como cuando escribimos una función dentro de un objeto y la llamamos método, este caso es similar, por convención entre desarrolladores, cuando una pasamos una función como argumento de otra función, a esto se le debe llamar callback (cb). Pueden llamarse en cualquier momento y pasar agumentos dentro de la función.
