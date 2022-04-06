@@ -1,0 +1,43 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/6e/15/17/6e15176c8ed772f921772f494a986a5e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-attachment: scroll;
+}
+
+h1 {
+  color: black;
+}
+
+img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.divClass {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+
+#thirdDiv {
+  border: 2px dashed burlywood;
+  padding: 50px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: moccasin;
+  position: relative;
+  margin: auto;
+}
+
+
